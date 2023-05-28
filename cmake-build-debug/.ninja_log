@@ -1,6 +1,10 @@
 # ninja log v5
+0	2267	1685294522349324128	CMakeFiles/LinuxWorkBench.dir/src/main.cpp.o	6956f07b1a129f49
 3365	4343	1685289328830572239	CMakeFiles/DesktopCalculator.dir/Std_Cust_Lib.cpp.o	f1059c1015308db7
-0	158	1685293089138080171	build.ninja	20109cda3bd88476
+0	57	1685295048062277992	build.ninja	20109cda3bd88476
 2	2375	1685289382764187294	CMakeFiles/DesktopCalculator.dir/main.cpp.o	f2336c124b54fc80
+2270	4474	1685294524549343238	CMakeFiles/LinuxWorkBench.dir/src/Database_Handler.cpp.o	8f65552e86fbaf0f
+4474	5286	1685294525365350327	CMakeFiles/LinuxWorkBench.dir/src/Std_Cust_Lib.cpp.o	3270661b89501928
 2376	2595	1685289382980193599	DesktopCalculator	bf70faa524d693b0
 4364	6566	1685286716862946784	CMakeFiles/DesktopCalculator.dir/Database_Handler.cpp.o	d6d3dd0566390958
+5286	5475	1685294525553351960	LinuxWorkBench	53182a9bb327d1dc

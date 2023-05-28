@@ -2,11 +2,11 @@
 // Created by venom on 5/28/23.
 //
 
-#ifndef DESKTOPCALCULATOR_DATABASE_HANDLER_H
-#define DESKTOPCALCULATOR_DATABASE_HANDLER_H
+#ifndef LINUX_WORKBENCH_DATABASE_HANDLER_H
+#define LINUX_WORKBENCH_DATABASE_HANDLER_H
 
-#ifndef DESKTOPCALCULATOR_DATABASE_HANDLER_H_INCLUDES
-#define DESKTOPCALCULATOR_DATABASE_HANDLER_H_INCLUDES
+#ifndef LINUX_WORKBENCH_DATABASE_HANDLER_H_INCLUDES
+#define LINUX_WORKBENCH_DATABASE_HANDLER_H_INCLUDES
     #include <mysql_driver.h>
     #include <mysql_connection.h>
     #include <cppconn/statement.h>
@@ -14,7 +14,7 @@
     #include <cppconn/exception.h>
     #include <stdexcept>
     #include <iomanip>
-#endif //DESKTOPCALCULATOR_DATABASE_HANDLER_H_INCLUDES
+#endif //LINUX_WORKBENCH_DATABASE_HANDLER_H_INCLUDES
 
 namespace Database {
     class Connection {
@@ -35,4 +35,4 @@ namespace Database {
         void close();
     };
 } // namespace Database
-#endif //DESKTOPCALCULATOR_DATABASE_HANDLER_H
+#endif //LINUX_WORKBENCH_DATABASE_HANDLER_H

@@ -12,7 +12,7 @@ add_compile_options(-Wall -Wextra -Werror)
 # Or, add definitions
 add_definitions(-DDEBUG_MODE)
 
-add_executable(LinuxWorkBench src/main.cpp src/Database_Handler.h src/Database_Handler.cpp src/Std_Cust_Lib.cpp src/Std_Cust_Lib.h)
+add_executable(LinuxWorkBench src/main.cpp src/Database_Handler.h src/Database_Handler.cpp src/Std_Cust_Lib.h src/Std_Cust_Lib.cpp src/main.cpp src/main.cpp)
 
 # Link against the MySQL Connector/C++ library
 target_link_libraries(LinuxWorkBench ${MYSQL_CONNECTOR_CPP_LIB})
