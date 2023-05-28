@@ -49,26 +49,26 @@ cmake_ninja_workdir = /home/venom/CLionProjects/DesktopCalculator/cmake-build-de
 
 build cmake_object_order_depends_target_LinuxWorkBench: phony || CMakeFiles/LinuxWorkBench.dir
 
-build CMakeFiles/LinuxWorkBench.dir/main.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/main.cpp || cmake_object_order_depends_target_LinuxWorkBench
+build CMakeFiles/LinuxWorkBench.dir/src/main.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/src/main.cpp || cmake_object_order_depends_target_LinuxWorkBench
   DEFINES = -DDEBUG_MODE
-  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/src/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles/LinuxWorkBench.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir/src
 
-build CMakeFiles/LinuxWorkBench.dir/Database_Handler.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/Database_Handler.cpp || cmake_object_order_depends_target_LinuxWorkBench
+build CMakeFiles/LinuxWorkBench.dir/src/Database_Handler.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/src/Database_Handler.cpp || cmake_object_order_depends_target_LinuxWorkBench
   DEFINES = -DDEBUG_MODE
-  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/Database_Handler.cpp.o.d
+  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/src/Database_Handler.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles/LinuxWorkBench.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir/src
 
-build CMakeFiles/LinuxWorkBench.dir/Std_Cust_Lib.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/Std_Cust_Lib.cpp || cmake_object_order_depends_target_LinuxWorkBench
+build CMakeFiles/LinuxWorkBench.dir/src/Std_Cust_Lib.cpp.o: CXX_COMPILER__LinuxWorkBench_Debug /home/venom/CLionProjects/DesktopCalculator/src/Std_Cust_Lib.cpp || cmake_object_order_depends_target_LinuxWorkBench
   DEFINES = -DDEBUG_MODE
-  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/Std_Cust_Lib.cpp.o.d
+  DEP_FILE = CMakeFiles/LinuxWorkBench.dir/src/Std_Cust_Lib.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles/LinuxWorkBench.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinuxWorkBench.dir/src
 
 
 # =============================================================================
@@ -78,7 +78,7 @@ build CMakeFiles/LinuxWorkBench.dir/Std_Cust_Lib.cpp.o: CXX_COMPILER__LinuxWorkB
 #############################################
 # Link the executable LinuxWorkBench
 
-build LinuxWorkBench: CXX_EXECUTABLE_LINKER__LinuxWorkBench_Debug CMakeFiles/LinuxWorkBench.dir/main.cpp.o CMakeFiles/LinuxWorkBench.dir/Database_Handler.cpp.o CMakeFiles/LinuxWorkBench.dir/Std_Cust_Lib.cpp.o | /usr/lib/x86_64-linux-gnu/libmysqlcppconn.so
+build LinuxWorkBench: CXX_EXECUTABLE_LINKER__LinuxWorkBench_Debug CMakeFiles/LinuxWorkBench.dir/src/main.cpp.o CMakeFiles/LinuxWorkBench.dir/src/Database_Handler.cpp.o CMakeFiles/LinuxWorkBench.dir/src/Std_Cust_Lib.cpp.o | /usr/lib/x86_64-linux-gnu/libmysqlcppconn.so
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libmysqlcppconn.so
   OBJECT_DIR = CMakeFiles/LinuxWorkBench.dir
