@@ -1,0 +1,6 @@
+# ninja log v5
+3365	4343	1685289328830572239	CMakeFiles/DesktopCalculator.dir/Std_Cust_Lib.cpp.o	f1059c1015308db7
+0	158	1685291569141528509	build.ninja	20109cda3bd88476
+2	2375	1685289382764187294	CMakeFiles/DesktopCalculator.dir/main.cpp.o	f2336c124b54fc80
+2376	2595	1685289382980193599	DesktopCalculator	bf70faa524d693b0
+4364	6566	1685286716862946784	CMakeFiles/DesktopCalculator.dir/Database_Handler.cpp.o	d6d3dd0566390958
